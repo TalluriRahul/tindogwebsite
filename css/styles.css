@@ -1,0 +1,141 @@
+#title{
+  background-color: #ff4c68;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.introg{
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#apptitle{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.linkbar{
+  margin-bottom: 10%;
+}
+.links{
+  margin:20px;
+  font-size: 150%;
+
+}
+.doginphone{
+  position: relative;
+}
+#iphonedog{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+.updownbut{
+  margin-right: 5px;
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+
+
+}
+.feature{
+  text-align: center;
+  padding:5%;
+}
+.row1{
+  margin-top: 120%;
+}
+.fa-solid{
+  font-size: 400%;
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.fa-solid:hover{
+  color:#ff4c68;
+}
+.fdesc{
+  color:#8f8f8f;
+}
+.ocon:hover{
+    color:#ff4c68;
+}
+h3{
+  font-weight: bold;
+}
+
+#testimonials{
+  text-align:center;
+  background-color:#ef8172;
+  color:white;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+.monial{
+  font-family:'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+#testimonial-image{
+  width:10%;
+  border-radius: 100%;
+
+}
+#press{
+  background-color:#ef8172;
+  text-align:center;
+  padding-bottom: 3%;
+}
+.pressimage{
+  width:15%;
+  margin:20px 20px 50px;
+}
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width:1051px){
+  #title{
+    text-align: center;
+  }
+  #iphonedog{
+    position:static;
+    transform: rotate(0);
+    margin-top:20px;
+    margin-left: auto;
+
+  }
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding:40px;
+}
+.endtext{
+  font-family:'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  padding:40px;
+  color:white;
+}
+#footer{
+  text-align: center;
+}
+.footericons{
+  margin:20px;
+}
+.fa-envelope{
+  font-size:1rem;
+}
